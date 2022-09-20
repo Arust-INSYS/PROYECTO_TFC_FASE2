@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500,600,700");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+.mat-form-field {
+  margin-top: 16px;
+  margin: 1px;
+}
+
+.box {
+  border: 1px solid darkblue;
+  border-radius: 20px;
+  width: 70%;
+  height: 80%;
+  margin: 80px auto;
+  padding: 5%;
+  justify-content: center;
+  display: flex;
+
+
+}
+
+.btnnext {
+  margin-top: 20px;
+}
+
+.imgfin {
+  border-radius: 40px;
+  align-self: center;
+}
+
+#btn{
+  margin-left: 10px;
+}
+
+.btnin{
+  margin-top: 20px;
+}
+.formulari{
+background-color: red;
+}

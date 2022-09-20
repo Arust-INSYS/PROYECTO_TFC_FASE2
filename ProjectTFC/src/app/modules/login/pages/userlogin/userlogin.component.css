@@ -1,0 +1,227 @@
+
+#conprueba{
+  
+  background-image: linear-gradient(137deg, #FFB200 ,  #6CD0FF 90% );
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 100%;
+  border: 2px solid rgba(255, 255,255, 0.1);
+  background-color: rba(255,255,255, 0.13);
+  border-radius: 12px;
+  text-align: center;
+  top: 200px;
+
+
+}
+#formulario{
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255,255, 0.1);
+  background-color: white;
+  border-radius: 50px;
+  align-items: center;
+
+
+}
+   .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 400px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+    .logincontainer{
+      height: 500%;
+    }
+  }
+
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+  }
+
+  /*########################################################################################################### */
+#iniciobinvenida{
+    
+        background-image: linear-gradient(137deg, #FFB200 ,  #6CD0FF 90% );
+        margin-left: 15px;
+        margin-right: 15px;
+       
+        
+        background-color: red;
+       
+        
+
+      
+}
+#logincontainer{
+  margin-top: 170px;
+
+  position: static;  
+
+  height: 75%;
+  
+ 
+    
+}
+
+/*########################################################################################################### */
+
+.submitForm:hover {
+    color: rgb(255, 255, 255);
+    background-color: #185df2;
+    }
+ .submitForm:hover ::before {
+    left: 0%;
+    color: rgb(255, 255, 255);
+ }
+
+
+    .inFormBackground {
+    margin: Orem rem;
+    }
+    .inFormBackground,
+    .inLoginForm {
+    width: 25rem;
+    height: 30rem; max-width: 100px;
+    transform: translate(40%, -0%);
+    position: relative;
+    }
+    .circle {
+    width: 8rem;
+    height: 8rem;
+    position: absolute; border-radius: 50%;
+
+    }
+    .circulo2:first-child {
+    left: -20%;
+    top: -12%;
+    background: linear-gradient (#ff0060, #1877f2);
+    }
+    .circle:nth-child(2) {
+    right: -18%;
+    bottom: -20%;
+    background: linear-gradient(164deg, #144e7cfc, #1877f2);
+    transform: translate(-100%, -385%);
+    }
+    .circle:nth-child(3) {
+        right: 5%;
+        bottom: 5%;
+        background: linear-gradient(164deg, #7c6514fc, #f2c318);
+        transform: translate(180%, -10%);
+        }
+
+    .inLoginForm form {
+        top: 45%;
+        left: 50%;
+        width: 440px;
+        height: 440px; 
+        max-width: 420px;
+        position:relative;
+         padding: 30px 30px; 
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(5px);
+        transform: translate(-50%, -55%); box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+        border: 2px solid rgba(255, 255,255, 0.1);
+        background-color: rba(255,255,255, 0.13);
+        border-radius: 50px;
+        }
+        form * {
+        border: none;
+       
+        border-color: #080710;
+        border-width: 50px;
+        outline: none;
+        color: #000000;
+        Letter-spacing: 0.5px; font-family: "Poppins",  sans-serif;
+        
+        }
+        .title {
+        font-size: 25px; font-weight: 500; line-height: 1px; text-align: center
+        }
+        .inputGroup label {
+        display: block; margin-top: 10px; font-size: 16px; font-weight: 500;
+        }
+        .inputGroup input {
+            width: 100%;
+            height: 50px;
+            display: block;
+            padding: 0 10px; margin-top: 8px; font-size: 14px; font-weight: 300; border-radius: 3px;
+            background-color: rgba(88, 85, 85, 0.21);
+            border-radius: 10px;
+            color: #020202;
+            
+            
+            }
+            ::placeholder {
+            color: #e5e5e5;
+            }
+            .submitForm{  
+            width: 100%; 
+            z-index: 1;
+            margin-top: 30px; 
+            color: #080710; 
+            padding: 15px 0; 
+            font-size: 18px; 
+            font-weight: 600; 
+            cursor: pointer;
+            overflow: hidden;
+             border-radius: 10px; 
+             position: relative;
+            background: #1877f2 ;
+        }
+            .submitForm::before {
+            content:"";
+            top: 0%;
+            left: -100%;
+             z-index: -1;
+              width: 100%;
+            height: 100%;
+             color: #fff;
+            border-radius: 5px;
+             position: absolute;
+            transition: left 0.45, color 0.45; 
+            background-color: #202020;
+            }
+  
