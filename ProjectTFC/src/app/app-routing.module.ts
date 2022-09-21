@@ -5,6 +5,7 @@ import { WelcomeEmpresaComponent } from '@modules/Empresa/pages/welcome-empresa/
 import { Anexo2Component } from '@modules/estudiantepracticas/pages/anexo2/anexo2.component';
 import { HomepageComponent } from '@modules/home/pages/homepage/homepage.component';
 import { UserloginComponent } from '@modules/login/pages/userlogin/userlogin.component';
+import { AsignaciontutorComponent } from '@modules/representantepracticas/pages/asignaciontutor/asignaciontutor.component';
 import { RegistrotutorComponent } from '@modules/representantepracticas/pages/registrotutor/registrotutor.component';
 import { Anexo1Component } from '@modules/tutoracademico/pages/anexo1/anexo1.component';
 import { LoginModule } from './modules/login/login.module';
@@ -32,6 +33,13 @@ const routes: Routes = [
     path: 'representantepracticas' ,// ruta 4200// ruta raiz
     // component =  no se utilioza lazy l;oad 
     component: RegistrotutorComponent, // carga el homepage que tiene el sheader y fouter
+    loadChildren:() => import('./modules/representantepracticas/representantepracticas.module').then(m => m.RepresentantepracticasModule) // se importa un modulo que tiene routing es decir ruta 
+  }
+  ,
+  {
+    path: 'asignaciontutor' ,// ruta 4200// ruta raiz
+    // component =  no se utilioza lazy l;oad 
+    component: AsignaciontutorComponent, // carga el homepage que tiene el sheader y fouter
     loadChildren:() => import('./modules/representantepracticas/representantepracticas.module').then(m => m.RepresentantepracticasModule) // se importa un modulo que tiene routing es decir ruta 
   }
   ,

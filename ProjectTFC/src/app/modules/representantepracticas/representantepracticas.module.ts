@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 import { RepresentantepracticasRoutingModule } from './representantepracticas-routing.module';
 import { RegistrotutorComponent } from './pages/registrotutor/registrotutor.component';
 import { SharedModule } from '@shared/shared.module';
+import { AsignaciontutorComponent } from './pages/asignaciontutor/asignaciontutor.component';
 
 @NgModule({
   declarations: [
     
     RegistrotutorComponent,
+         AsignaciontutorComponent,
   ],
   imports: [
     CommonModule,
